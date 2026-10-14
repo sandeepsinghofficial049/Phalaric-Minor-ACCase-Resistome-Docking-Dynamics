@@ -1,0 +1,25 @@
+Target Model,Herbicide,Binding Affinity (kcal/mol)
+WT_3k8x,Diclofop,-6.0
+WT_3k8x,Sethoxydim,-4.905
+WT_3k8x,Pinoxaden,-6.223
+ALA_mutant_3k8x,Diclofop,-6.007
+ALA_mutant_3k8x,Sethoxydim,-5.083
+ALA_mutant_3k8x,Pinoxaden,-5.955
+CIS_mutant_3k8x,Diclofop,-5.849
+CIS_mutant_3k8x,Sethoxydim,-4.613
+CIS_mutant_3k8x,Pinoxaden,-4.944
+Double_mutant_3k8x,Diclofop,-5.719
+Double_mutant_3k8x,Sethoxydim,-5.018
+Double_mutant_3k8x,Pinoxaden,-5.582
+WT_1uyr,Diclofop,-8.112
+WT_1uyr,Sethoxydim,-5.973
+WT_1uyr,Pinoxaden,-6.807
+ALA_mutant_1uyr,Diclofop,-7.232
+ALA_mutant_1uyr,Sethoxydim,-5.793
+ALA_mutant_1uyr,Pinoxaden,-7.627
+CIS_mutant_1uyr,Diclofop,-7.465
+CIS_mutant_1uyr,Sethoxydim,-6.005
+CIS_mutant_1uyr,Pinoxaden,-6.05
+Double_mutant_1uyr,Diclofop,-7.184
+Double_mutant_1uyr,Sethoxydim,-6.053
+Double_mutant_1uyr,Pinoxaden,-6.248

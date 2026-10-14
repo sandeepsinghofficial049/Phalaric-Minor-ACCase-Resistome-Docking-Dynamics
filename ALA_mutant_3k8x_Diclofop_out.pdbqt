@@ -1,0 +1,504 @@
+MODEL 1
+REMARK VINA RESULT:    -6.007      0.000      0.000
+REMARK INTER + INTRA:          -8.595
+REMARK INTER:                  -7.938
+REMARK INTRA:                  -0.657
+REMARK UNBOUND:                -0.657
+REMARK  Name = /kaggle/working/Phase_3_Ligands/Diclofop_minimized.pdb
+REMARK  7 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C1_1  and  C2_2
+REMARK    2  A    between atoms: C2_2  and  C3_3
+REMARK    3  A    between atoms: C2_2  and  O3_6
+REMARK    4  A    between atoms: C3_3  and  O2_5
+REMARK    5  A    between atoms: O3_6  and  C4_7
+REMARK    6  A    between atoms: C7_10  and  O4_13
+REMARK    7  A    between atoms: O4_13  and  C10_14
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C4  UNL     1      -8.795  27.879 -37.752  0.00  0.00    +0.000 A 
+ATOM      2  C5  UNL     1      -9.318  29.049 -37.193  0.00  0.00    +0.000 A 
+ATOM      3  C6  UNL     1      -9.774  30.088 -38.007  0.00  0.00    +0.000 A 
+ATOM      4  C7  UNL     1      -9.697  29.964 -39.391  0.00  0.00    +0.000 A 
+ATOM      5  C8  UNL     1      -9.204  28.788 -39.961  0.00  0.00    +0.000 A 
+ATOM      6  C9  UNL     1      -8.748  27.749 -39.141  0.00  0.00    +0.000 A 
+ENDROOT
+BRANCH   1   7
+ATOM      7  O3  UNL     1      -8.386  26.952 -36.835  0.00  0.00    +0.000 OA
+BRANCH   7   9
+ATOM      8  C1  UNL     1      -6.558  26.138 -35.576  0.00  0.00    +0.000 C 
+ATOM      9  C2  UNL     1      -7.099  26.357 -36.985  0.00  0.00    +0.000 C 
+BRANCH   9  10
+ATOM     10  C3  UNL     1      -7.134  25.010 -37.709  0.00  0.00    +0.000 C 
+ATOM     11  O1  UNL     1      -6.645  24.727 -38.790  0.00  0.00    +0.000 OA
+BRANCH  10  12
+ATOM     12  O2  UNL     1      -7.784  24.060 -37.000  0.00  0.00    +0.000 OA
+ATOM     13  H5  UNL     1      -7.157  23.305 -37.000  0.00  0.00    +0.000 HD
+ENDBRANCH  10  12
+ENDBRANCH   9  10
+ENDBRANCH   7   9
+ENDBRANCH   1   7
+BRANCH   4  14
+ATOM     14  O4  UNL     1     -10.185  31.007 -40.143  0.00  0.00    +0.000 OA
+BRANCH  14  15
+ATOM     15  C10 UNL     1     -11.284  30.743 -40.932  0.00  0.00    +0.000 A 
+ATOM     16  C11 UNL     1     -11.205  30.971 -42.312  0.00  0.00    +0.000 A 
+ATOM     17  C12 UNL     1     -12.292  30.672 -43.136  0.00  0.00    +0.000 A 
+ATOM     18  C13 UNL     1     -13.449  30.134 -42.577  0.00  0.00    +0.000 A 
+ATOM     19  C14 UNL     1     -13.529  29.884 -41.207  0.00  0.00    +0.000 A 
+ATOM     20  C15 UNL     1     -12.443  30.182 -40.383  0.00  0.00    +0.000 A 
+ATOM     21 CL1  UNL     1     -14.791  29.765 -43.589  0.00  0.00    +0.000 Cl
+ATOM     22 CL2  UNL     1      -9.784  31.636 -43.032  0.00  0.00    +0.000 Cl
+ENDBRANCH  14  15
+ENDBRANCH   4  14
+TORSDOF 6
+ENDMDL
+MODEL 2
+REMARK VINA RESULT:    -5.711      6.055      8.814
+REMARK INTER + INTRA:          -8.204
+REMARK INTER:                  -7.651
+REMARK INTRA:                  -0.553
+REMARK UNBOUND:                -0.657
+REMARK  Name = /kaggle/working/Phase_3_Ligands/Diclofop_minimized.pdb
+REMARK  7 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C1_1  and  C2_2
+REMARK    2  A    between atoms: C2_2  and  C3_3
+REMARK    3  A    between atoms: C2_2  and  O3_6
+REMARK    4  A    between atoms: C3_3  and  O2_5
+REMARK    5  A    between atoms: O3_6  and  C4_7
+REMARK    6  A    between atoms: C7_10  and  O4_13
+REMARK    7  A    between atoms: O4_13  and  C10_14
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C4  UNL     1     -16.945  30.244 -40.848  0.00  0.00    +0.000 A 
+ATOM      2  C5  UNL     1     -16.550  31.578 -40.714  0.00  0.00    +0.000 A 
+ATOM      3  C6  UNL     1     -15.532  32.106 -41.510  0.00  0.00    +0.000 A 
+ATOM      4  C7  UNL     1     -14.892  31.291 -42.440  0.00  0.00    +0.000 A 
+ATOM      5  C8  UNL     1     -15.298  29.965 -42.604  0.00  0.00    +0.000 A 
+ATOM      6  C9  UNL     1     -16.321  29.441 -41.804  0.00  0.00    +0.000 A 
+ENDROOT
+BRANCH   1   7
+ATOM      7  O3  UNL     1     -17.951  29.868 -40.002  0.00  0.00    +0.000 OA
+BRANCH   7   9
+ATOM      8  C1  UNL     1     -20.141  29.202 -39.412  0.00  0.00    +0.000 C 
+ATOM      9  C2  UNL     1     -19.132  29.288 -40.552  0.00  0.00    +0.000 C 
+BRANCH   9  10
+ATOM     10  C3  UNL     1     -19.743  30.117 -41.683  0.00  0.00    +0.000 C 
+ATOM     11  O1  UNL     1     -20.131  31.272 -41.641  0.00  0.00    +0.000 OA
+BRANCH  10  12
+ATOM     12  O2  UNL     1     -19.816  29.430 -42.846  0.00  0.00    +0.000 OA
+ATOM     13  H5  UNL     1     -19.360  28.585 -42.642  0.00  0.00    +0.000 HD
+ENDBRANCH  10  12
+ENDBRANCH   9  10
+ENDBRANCH   7   9
+ENDBRANCH   1   7
+BRANCH   4  14
+ATOM     14  O4  UNL     1     -13.915  31.871 -43.215  0.00  0.00    +0.000 OA
+BRANCH  14  15
+ATOM     15  C10 UNL     1     -12.719  32.161 -42.594  0.00  0.00    +0.000 A 
+ATOM     16  C11 UNL     1     -11.683  31.219 -42.630  0.00  0.00    +0.000 A 
+ATOM     17  C12 UNL     1     -10.451  31.508 -42.043  0.00  0.00    +0.000 A 
+ATOM     18  C13 UNL     1     -10.255  32.746 -41.433  0.00  0.00    +0.000 A 
+ATOM     19  C14 UNL     1     -11.274  33.698 -41.411  0.00  0.00    +0.000 A 
+ATOM     20  C15 UNL     1     -12.506  33.410 -41.998  0.00  0.00    +0.000 A 
+ATOM     21 CL1  UNL     1      -8.737  33.107 -40.708  0.00  0.00    +0.000 Cl
+ATOM     22 CL2  UNL     1     -11.898  29.678 -43.378  0.00  0.00    +0.000 Cl
+ENDBRANCH  14  15
+ENDBRANCH   4  14
+TORSDOF 6
+ENDMDL
+MODEL 3
+REMARK VINA RESULT:    -5.442      4.653      7.916
+REMARK INTER + INTRA:          -7.848
+REMARK INTER:                  -7.089
+REMARK INTRA:                  -0.759
+REMARK UNBOUND:                -0.657
+REMARK  Name = /kaggle/working/Phase_3_Ligands/Diclofop_minimized.pdb
+REMARK  7 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C1_1  and  C2_2
+REMARK    2  A    between atoms: C2_2  and  C3_3
+REMARK    3  A    between atoms: C2_2  and  O3_6
+REMARK    4  A    between atoms: C3_3  and  O2_5
+REMARK    5  A    between atoms: O3_6  and  C4_7
+REMARK    6  A    between atoms: C7_10  and  O4_13
+REMARK    7  A    between atoms: O4_13  and  C10_14
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C4  UNL     1     -15.734  29.749 -42.483  0.00  0.00    +0.000 A 
+ATOM      2  C5  UNL     1     -15.346  30.743 -41.579  0.00  0.00    +0.000 A 
+ATOM      3  C6  UNL     1     -14.055  31.275 -41.613  0.00  0.00    +0.000 A 
+ATOM      4  C7  UNL     1     -13.139  30.802 -42.548  0.00  0.00    +0.000 A 
+ATOM      5  C8  UNL     1     -13.525  29.831 -43.476  0.00  0.00    +0.000 A 
+ATOM      6  C9  UNL     1     -14.821  29.302 -43.438  0.00  0.00    +0.000 A 
+ENDROOT
+BRANCH   1   7
+ATOM      7  O3  UNL     1     -17.024  29.323 -42.329  0.00  0.00    +0.000 OA
+BRANCH   7   9
+ATOM      8  C1  UNL     1     -19.073  30.267 -41.621  0.00  0.00    +0.000 C 
+ATOM      9  C2  UNL     1     -17.736  29.700 -41.153  0.00  0.00    +0.000 C 
+BRANCH   9  10
+ATOM     10  C3  UNL     1     -18.008  28.528 -40.208  0.00  0.00    +0.000 C 
+ATOM     11  O1  UNL     1     -18.804  28.478 -39.285  0.00  0.00    +0.000 OA
+BRANCH  10  12
+ATOM     12  O2  UNL     1     -17.254  27.444 -40.499  0.00  0.00    +0.000 OA
+ATOM     13  H5  UNL     1     -16.357  27.701 -40.197  0.00  0.00    +0.000 HD
+ENDBRANCH  10  12
+ENDBRANCH   9  10
+ENDBRANCH   7   9
+ENDBRANCH   1   7
+BRANCH   4  14
+ATOM     14  O4  UNL     1     -11.892  31.381 -42.553  0.00  0.00    +0.000 OA
+BRANCH  14  15
+ATOM     15  C10 UNL     1     -11.156  31.282 -41.392  0.00  0.00    +0.000 A 
+ATOM     16  C11 UNL     1     -10.788  32.450 -40.713  0.00  0.00    +0.000 A 
+ATOM     17  C12 UNL     1     -10.077  32.371 -39.515  0.00  0.00    +0.000 A 
+ATOM     18  C13 UNL     1      -9.750  31.122 -38.992  0.00  0.00    +0.000 A 
+ATOM     19  C14 UNL     1     -10.130  29.952 -39.650  0.00  0.00    +0.000 A 
+ATOM     20  C15 UNL     1     -10.841  30.030 -40.848  0.00  0.00    +0.000 A 
+ATOM     21 CL1  UNL     1      -8.874  31.020 -37.514  0.00  0.00    +0.000 Cl
+ATOM     22 CL2  UNL     1     -11.180  34.011 -41.337  0.00  0.00    +0.000 Cl
+ENDBRANCH  14  15
+ENDBRANCH   4  14
+TORSDOF 6
+ENDMDL
+MODEL 4
+REMARK VINA RESULT:    -5.428      6.381     10.663
+REMARK INTER + INTRA:          -7.831
+REMARK INTER:                  -7.013
+REMARK INTRA:                  -0.817
+REMARK UNBOUND:                -0.657
+REMARK  Name = /kaggle/working/Phase_3_Ligands/Diclofop_minimized.pdb
+REMARK  7 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C1_1  and  C2_2
+REMARK    2  A    between atoms: C2_2  and  C3_3
+REMARK    3  A    between atoms: C2_2  and  O3_6
+REMARK    4  A    between atoms: C3_3  and  O2_5
+REMARK    5  A    between atoms: O3_6  and  C4_7
+REMARK    6  A    between atoms: C7_10  and  O4_13
+REMARK    7  A    between atoms: O4_13  and  C10_14
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C4  UNL     1     -16.144  36.149 -42.150  0.00  0.00    +0.000 A 
+ATOM      2  C5  UNL     1     -16.686  35.249 -41.226  0.00  0.00    +0.000 A 
+ATOM      3  C6  UNL     1     -15.982  34.105 -40.846  0.00  0.00    +0.000 A 
+ATOM      4  C7  UNL     1     -14.732  33.848 -41.401  0.00  0.00    +0.000 A 
+ATOM      5  C8  UNL     1     -14.167  34.754 -42.302  0.00  0.00    +0.000 A 
+ATOM      6  C9  UNL     1     -14.877  35.901 -42.680  0.00  0.00    +0.000 A 
+ENDROOT
+BRANCH   1   7
+ATOM      7  O3  UNL     1     -16.946  37.220 -42.428  0.00  0.00    +0.000 OA
+BRANCH   7   9
+ATOM      8  C1  UNL     1     -17.535  38.907 -43.976  0.00  0.00    +0.000 C 
+ATOM      9  C2  UNL     1     -16.396  38.322 -43.146  0.00  0.00    +0.000 C 
+BRANCH   9  10
+ATOM     10  C3  UNL     1     -15.840  39.420 -42.239  0.00  0.00    +0.000 C 
+ATOM     11  O1  UNL     1     -16.464  40.228 -41.571  0.00  0.00    +0.000 OA
+BRANCH  10  12
+ATOM     12  O2  UNL     1     -14.488  39.427 -42.205  0.00  0.00    +0.000 OA
+ATOM     13  H5  UNL     1     -14.235  39.465 -43.152  0.00  0.00    +0.000 HD
+ENDBRANCH  10  12
+ENDBRANCH   9  10
+ENDBRANCH   7   9
+ENDBRANCH   1   7
+BRANCH   4  14
+ATOM     14  O4  UNL     1     -14.073  32.721 -40.969  0.00  0.00    +0.000 OA
+BRANCH  14  15
+ATOM     15  C10 UNL     1     -13.738  31.790 -41.929  0.00  0.00    +0.000 A 
+ATOM     16  C11 UNL     1     -12.392  31.621 -42.278  0.00  0.00    +0.000 A 
+ATOM     17  C12 UNL     1     -12.027  30.657 -43.218  0.00  0.00    +0.000 A 
+ATOM     18  C13 UNL     1     -13.009  29.854 -43.796  0.00  0.00    +0.000 A 
+ATOM     19  C14 UNL     1     -14.349  30.001 -43.439  0.00  0.00    +0.000 A 
+ATOM     20  C15 UNL     1     -14.715  30.965 -42.499  0.00  0.00    +0.000 A 
+ATOM     21 CL1  UNL     1     -12.563  28.664 -44.956  0.00  0.00    +0.000 Cl
+ATOM     22 CL2  UNL     1     -11.155  32.601 -41.578  0.00  0.00    +0.000 Cl
+ENDBRANCH  14  15
+ENDBRANCH   4  14
+TORSDOF 6
+ENDMDL
+MODEL 5
+REMARK VINA RESULT:    -5.423      4.675      7.302
+REMARK INTER + INTRA:          -7.824
+REMARK INTER:                  -7.225
+REMARK INTRA:                  -0.599
+REMARK UNBOUND:                -0.657
+REMARK  Name = /kaggle/working/Phase_3_Ligands/Diclofop_minimized.pdb
+REMARK  7 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C1_1  and  C2_2
+REMARK    2  A    between atoms: C2_2  and  C3_3
+REMARK    3  A    between atoms: C2_2  and  O3_6
+REMARK    4  A    between atoms: C3_3  and  O2_5
+REMARK    5  A    between atoms: O3_6  and  C4_7
+REMARK    6  A    between atoms: C7_10  and  O4_13
+REMARK    7  A    between atoms: O4_13  and  C10_14
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C4  UNL     1     -12.994  31.488 -42.540  0.00  0.00    +0.000 A 
+ATOM      2  C5  UNL     1     -13.149  30.372 -43.367  0.00  0.00    +0.000 A 
+ATOM      3  C6  UNL     1     -14.342  29.646 -43.373  0.00  0.00    +0.000 A 
+ATOM      4  C7  UNL     1     -15.386  30.030 -42.536  0.00  0.00    +0.000 A 
+ATOM      5  C8  UNL     1     -15.254  31.161 -41.728  0.00  0.00    +0.000 A 
+ATOM      6  C9  UNL     1     -14.055  31.886 -41.726  0.00  0.00    +0.000 A 
+ENDROOT
+BRANCH   1   7
+ATOM      7  O3  UNL     1     -11.774  32.096 -42.640  0.00  0.00    +0.000 OA
+BRANCH   7   9
+ATOM      8  C1  UNL     1      -9.419  32.211 -42.820  0.00  0.00    +0.000 C 
+ATOM      9  C2  UNL     1     -10.597  31.306 -42.474  0.00  0.00    +0.000 C 
+BRANCH   9  10
+ATOM     10  C3  UNL     1     -10.412  30.787 -41.048  0.00  0.00    +0.000 C 
+ATOM     11  O1  UNL     1     -10.180  31.432 -40.039  0.00  0.00    +0.000 OA
+BRANCH  10  12
+ATOM     12  O2  UNL     1     -10.553  29.444 -40.964  0.00  0.00    +0.000 OA
+ATOM     13  H5  UNL     1     -10.571  29.157 -41.903  0.00  0.00    +0.000 HD
+ENDBRANCH  10  12
+ENDBRANCH   9  10
+ENDBRANCH   7   9
+ENDBRANCH   1   7
+BRANCH   4  14
+ATOM     14  O4  UNL     1     -16.547  29.295 -42.603  0.00  0.00    +0.000 OA
+BRANCH  14  15
+ATOM     15  C10 UNL     1     -17.394  29.371 -41.519  0.00  0.00    +0.000 A 
+ATOM     16  C11 UNL     1     -17.136  28.581 -40.392  0.00  0.00    +0.000 A 
+ATOM     17  C12 UNL     1     -17.958  28.672 -39.268  0.00  0.00    +0.000 A 
+ATOM     18  C13 UNL     1     -19.029  29.565 -39.271  0.00  0.00    +0.000 A 
+ATOM     19  C14 UNL     1     -19.281  30.370 -40.381  0.00  0.00    +0.000 A 
+ATOM     20  C15 UNL     1     -18.460  30.280 -41.505  0.00  0.00    +0.000 A 
+ATOM     21 CL1  UNL     1     -20.045  29.679 -37.887  0.00  0.00    +0.000 Cl
+ATOM     22 CL2  UNL     1     -15.817  27.468 -40.360  0.00  0.00    +0.000 Cl
+ENDBRANCH  14  15
+ENDBRANCH   4  14
+TORSDOF 6
+ENDMDL
+MODEL 6
+REMARK VINA RESULT:    -5.388      5.582      7.468
+REMARK INTER + INTRA:          -7.778
+REMARK INTER:                  -6.984
+REMARK INTRA:                  -0.794
+REMARK UNBOUND:                -0.657
+REMARK  Name = /kaggle/working/Phase_3_Ligands/Diclofop_minimized.pdb
+REMARK  7 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C1_1  and  C2_2
+REMARK    2  A    between atoms: C2_2  and  C3_3
+REMARK    3  A    between atoms: C2_2  and  O3_6
+REMARK    4  A    between atoms: C3_3  and  O2_5
+REMARK    5  A    between atoms: O3_6  and  C4_7
+REMARK    6  A    between atoms: C7_10  and  O4_13
+REMARK    7  A    between atoms: O4_13  and  C10_14
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C4  UNL     1     -12.903  31.474 -42.693  0.00  0.00    +0.000 A 
+ATOM      2  C5  UNL     1     -13.948  31.889 -41.862  0.00  0.00    +0.000 A 
+ATOM      3  C6  UNL     1     -15.142  31.168 -41.801  0.00  0.00    +0.000 A 
+ATOM      4  C7  UNL     1     -15.301  30.029 -42.586  0.00  0.00    +0.000 A 
+ATOM      5  C8  UNL     1     -14.253  29.588 -43.398  0.00  0.00    +0.000 A 
+ATOM      6  C9  UNL     1     -13.058  30.315 -43.455  0.00  0.00    +0.000 A 
+ENDROOT
+BRANCH   1   7
+ATOM      7  O3  UNL     1     -11.799  32.278 -42.651  0.00  0.00    +0.000 OA
+BRANCH   7   9
+ATOM      8  C1  UNL     1      -9.442  32.134 -42.771  0.00  0.00    +0.000 C 
+ATOM      9  C2  UNL     1     -10.664  31.849 -41.903  0.00  0.00    +0.000 C 
+BRANCH   9  10
+ATOM     10  C3  UNL     1     -10.501  32.586 -40.573  0.00  0.00    +0.000 C 
+ATOM     11  O1  UNL     1     -11.185  33.493 -40.129  0.00  0.00    +0.000 OA
+BRANCH  10  12
+ATOM     12  O2  UNL     1      -9.465  32.112 -39.843  0.00  0.00    +0.000 OA
+ATOM     13  H5  UNL     1      -9.719  31.181 -39.664  0.00  0.00    +0.000 HD
+ENDBRANCH  10  12
+ENDBRANCH   9  10
+ENDBRANCH   7   9
+ENDBRANCH   1   7
+BRANCH   4  14
+ATOM     14  O4  UNL     1     -16.487  29.344 -42.465  0.00  0.00    +0.000 OA
+BRANCH  14  15
+ATOM     15  C10 UNL     1     -16.836  28.923 -41.199  0.00  0.00    +0.000 A 
+ATOM     16  C11 UNL     1     -18.035  29.376 -40.634  0.00  0.00    +0.000 A 
+ATOM     17  C12 UNL     1     -18.426  28.931 -39.370  0.00  0.00    +0.000 A 
+ATOM     18  C13 UNL     1     -17.623  28.023 -38.683  0.00  0.00    +0.000 A 
+ATOM     19  C14 UNL     1     -16.438  27.551 -39.247  0.00  0.00    +0.000 A 
+ATOM     20  C15 UNL     1     -16.046  27.995 -40.510  0.00  0.00    +0.000 A 
+ATOM     21 CL1  UNL     1     -18.103  27.472 -37.124  0.00  0.00    +0.000 Cl
+ATOM     22 CL2  UNL     1     -19.049  30.500 -41.463  0.00  0.00    +0.000 Cl
+ENDBRANCH  14  15
+ENDBRANCH   4  14
+TORSDOF 6
+ENDMDL
+MODEL 7
+REMARK VINA RESULT:    -5.382      6.704     10.761
+REMARK INTER + INTRA:          -7.770
+REMARK INTER:                  -6.981
+REMARK INTRA:                  -0.789
+REMARK UNBOUND:                -0.657
+REMARK  Name = /kaggle/working/Phase_3_Ligands/Diclofop_minimized.pdb
+REMARK  7 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C1_1  and  C2_2
+REMARK    2  A    between atoms: C2_2  and  C3_3
+REMARK    3  A    between atoms: C2_2  and  O3_6
+REMARK    4  A    between atoms: C3_3  and  O2_5
+REMARK    5  A    between atoms: O3_6  and  C4_7
+REMARK    6  A    between atoms: C7_10  and  O4_13
+REMARK    7  A    between atoms: O4_13  and  C10_14
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C4  UNL     1     -19.614  31.857 -40.869  0.00  0.00    +0.000 A 
+ATOM      2  C5  UNL     1     -19.747  30.680 -41.612  0.00  0.00    +0.000 A 
+ATOM      3  C6  UNL     1     -18.692  29.771 -41.706  0.00  0.00    +0.000 A 
+ATOM      4  C7  UNL     1     -17.488  30.043 -41.063  0.00  0.00    +0.000 A 
+ATOM      5  C8  UNL     1     -17.353  31.201 -40.294  0.00  0.00    +0.000 A 
+ATOM      6  C9  UNL     1     -18.414  32.110 -40.202  0.00  0.00    +0.000 A 
+ENDROOT
+BRANCH   1   7
+ATOM      7  O3  UNL     1     -20.726  32.651 -40.869  0.00  0.00    +0.000 OA
+BRANCH   7   9
+ATOM      8  C1  UNL     1     -22.270  34.099 -39.815  0.00  0.00    +0.000 C 
+ATOM      9  C2  UNL     1     -21.447  32.824 -39.651  0.00  0.00    +0.000 C 
+BRANCH   9  10
+ATOM     10  C3  UNL     1     -22.398  31.668 -39.339  0.00  0.00    +0.000 C 
+ATOM     11  O1  UNL     1     -22.195  30.705 -38.619  0.00  0.00    +0.000 OA
+BRANCH  10  12
+ATOM     12  O2  UNL     1     -23.595  31.802 -39.953  0.00  0.00    +0.000 OA
+ATOM     13  H5  UNL     1     -23.535  32.683 -40.382  0.00  0.00    +0.000 HD
+ENDBRANCH  10  12
+ENDBRANCH   9  10
+ENDBRANCH   7   9
+ENDBRANCH   1   7
+BRANCH   4  14
+ATOM     14  O4  UNL     1     -16.493  29.100 -41.168  0.00  0.00    +0.000 OA
+BRANCH  14  15
+ATOM     15  C10 UNL     1     -15.278  29.528 -41.659  0.00  0.00    +0.000 A 
+ATOM     16  C11 UNL     1     -14.190  29.645 -40.786  0.00  0.00    +0.000 A 
+ATOM     17  C12 UNL     1     -12.941  30.039 -41.269  0.00  0.00    +0.000 A 
+ATOM     18  C13 UNL     1     -12.783  30.300 -42.629  0.00  0.00    +0.000 A 
+ATOM     19  C14 UNL     1     -13.856  30.166 -43.510  0.00  0.00    +0.000 A 
+ATOM     20  C15 UNL     1     -15.105  29.773 -43.027  0.00  0.00    +0.000 A 
+ATOM     21 CL1  UNL     1     -11.245  30.786 -43.229  0.00  0.00    +0.000 Cl
+ATOM     22 CL2  UNL     1     -14.357  29.327 -39.097  0.00  0.00    +0.000 Cl
+ENDBRANCH  14  15
+ENDBRANCH   4  14
+TORSDOF 6
+ENDMDL
+MODEL 8
+REMARK VINA RESULT:    -5.291      5.594      6.982
+REMARK INTER + INTRA:          -7.649
+REMARK INTER:                  -6.999
+REMARK INTRA:                  -0.650
+REMARK UNBOUND:                -0.657
+REMARK  Name = /kaggle/working/Phase_3_Ligands/Diclofop_minimized.pdb
+REMARK  7 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C1_1  and  C2_2
+REMARK    2  A    between atoms: C2_2  and  C3_3
+REMARK    3  A    between atoms: C2_2  and  O3_6
+REMARK    4  A    between atoms: C3_3  and  O2_5
+REMARK    5  A    between atoms: O3_6  and  C4_7
+REMARK    6  A    between atoms: C7_10  and  O4_13
+REMARK    7  A    between atoms: O4_13  and  C10_14
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C4  UNL     1     -16.788  29.100 -39.773  0.00  0.00    +0.000 A 
+ATOM      2  C5  UNL     1     -16.755  30.497 -39.820  0.00  0.00    +0.000 A 
+ATOM      3  C6  UNL     1     -16.089  31.162 -40.852  0.00  0.00    +0.000 A 
+ATOM      4  C7  UNL     1     -15.438  30.426 -41.838  0.00  0.00    +0.000 A 
+ATOM      5  C8  UNL     1     -15.488  29.031 -41.818  0.00  0.00    +0.000 A 
+ATOM      6  C9  UNL     1     -16.159  28.369 -40.782  0.00  0.00    +0.000 A 
+ENDROOT
+BRANCH   1   7
+ATOM      7  O3  UNL     1     -17.473  28.590 -38.706  0.00  0.00    +0.000 OA
+BRANCH   7   9
+ATOM      8  C1  UNL     1     -17.713  28.384 -36.363  0.00  0.00    +0.000 C 
+ATOM      9  C2  UNL     1     -16.748  28.225 -37.534  0.00  0.00    +0.000 C 
+BRANCH   9  10
+ATOM     10  C3  UNL     1     -16.245  26.780 -37.557  0.00  0.00    +0.000 C 
+ATOM     11  O1  UNL     1     -15.126  26.381 -37.832  0.00  0.00    +0.000 OA
+BRANCH  10  12
+ATOM     12  O2  UNL     1     -17.202  25.894 -37.203  0.00  0.00    +0.000 OA
+ATOM     13  H5  UNL     1     -17.234  25.970 -36.225  0.00  0.00    +0.000 HD
+ENDBRANCH  10  12
+ENDBRANCH   9  10
+ENDBRANCH   7   9
+ENDBRANCH   1   7
+BRANCH   4  14
+ATOM     14  O4  UNL     1     -14.821  31.134 -42.844  0.00  0.00    +0.000 OA
+BRANCH  14  15
+ATOM     15  C10 UNL     1     -13.472  31.376 -42.697  0.00  0.00    +0.000 A 
+ATOM     16  C11 UNL     1     -12.553  30.527 -43.326  0.00  0.00    +0.000 A 
+ATOM     17  C12 UNL     1     -11.183  30.777 -43.224  0.00  0.00    +0.000 A 
+ATOM     18  C13 UNL     1     -10.740  31.885 -42.504  0.00  0.00    +0.000 A 
+ATOM     19  C14 UNL     1     -11.649  32.747 -41.891  0.00  0.00    +0.000 A 
+ATOM     20  C15 UNL     1     -13.018  32.498 -41.993  0.00  0.00    +0.000 A 
+ATOM     21 CL1  UNL     1      -9.052  32.196 -42.375  0.00  0.00    +0.000 Cl
+ATOM     22 CL2  UNL     1     -13.074  29.148 -44.225  0.00  0.00    +0.000 Cl
+ENDBRANCH  14  15
+ENDBRANCH   4  14
+TORSDOF 6
+ENDMDL
+MODEL 9
+REMARK VINA RESULT:    -5.290      5.791      6.993
+REMARK INTER + INTRA:          -7.648
+REMARK INTER:                  -6.839
+REMARK INTRA:                  -0.809
+REMARK UNBOUND:                -0.657
+REMARK  Name = /kaggle/working/Phase_3_Ligands/Diclofop_minimized.pdb
+REMARK  7 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C1_1  and  C2_2
+REMARK    2  A    between atoms: C2_2  and  C3_3
+REMARK    3  A    between atoms: C2_2  and  O3_6
+REMARK    4  A    between atoms: C3_3  and  O2_5
+REMARK    5  A    between atoms: O3_6  and  C4_7
+REMARK    6  A    between atoms: C7_10  and  O4_13
+REMARK    7  A    between atoms: O4_13  and  C10_14
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C4  UNL     1     -16.275  28.499 -40.444  0.00  0.00    +0.000 A 
+ATOM      2  C5  UNL     1     -14.934  28.771 -40.155  0.00  0.00    +0.000 A 
+ATOM      3  C6  UNL     1     -14.139  29.482 -41.056  0.00  0.00    +0.000 A 
+ATOM      4  C7  UNL     1     -14.683  29.914 -42.263  0.00  0.00    +0.000 A 
+ATOM      5  C8  UNL     1     -16.029  29.674 -42.549  0.00  0.00    +0.000 A 
+ATOM      6  C9  UNL     1     -16.822  28.962 -41.641  0.00  0.00    +0.000 A 
+ENDROOT
+BRANCH   1   7
+ATOM      7  O3  UNL     1     -16.927  27.794 -39.472  0.00  0.00    +0.000 OA
+BRANCH   7   9
+ATOM      8  C1  UNL     1     -17.493  28.886 -37.452  0.00  0.00    +0.000 C 
+ATOM      9  C2  UNL     1     -16.502  27.936 -38.118  0.00  0.00    +0.000 C 
+BRANCH   9  10
+ATOM     10  C3  UNL     1     -16.495  26.617 -37.343  0.00  0.00    +0.000 C 
+ATOM     11  O1  UNL     1     -15.555  26.085 -36.776  0.00  0.00    +0.000 OA
+BRANCH  10  12
+ATOM     12  O2  UNL     1     -17.715  26.033 -37.305  0.00  0.00    +0.000 OA
+ATOM     13  H5  UNL     1     -17.509  25.081 -37.186  0.00  0.00    +0.000 HD
+ENDBRANCH  10  12
+ENDBRANCH   9  10
+ENDBRANCH   7   9
+ENDBRANCH   1   7
+BRANCH   4  14
+ATOM     14  O4  UNL     1     -13.861  30.633 -43.100  0.00  0.00    +0.000 OA
+BRANCH  14  15
+ATOM     15  C10 UNL     1     -13.495  31.893 -42.680  0.00  0.00    +0.000 A 
+ATOM     16  C11 UNL     1     -12.155  32.146 -42.361  0.00  0.00    +0.000 A 
+ATOM     17  C12 UNL     1     -11.755  33.425 -41.972  0.00  0.00    +0.000 A 
+ATOM     18  C13 UNL     1     -12.696  34.452 -41.918  0.00  0.00    +0.000 A 
+ATOM     19  C14 UNL     1     -14.029  34.214 -42.254  0.00  0.00    +0.000 A 
+ATOM     20  C15 UNL     1     -14.429  32.935 -42.643  0.00  0.00    +0.000 A 
+ATOM     21 CL1  UNL     1     -12.208  36.031 -41.439  0.00  0.00    +0.000 Cl
+ATOM     22 CL2  UNL     1     -10.968  30.894 -42.419  0.00  0.00    +0.000 Cl
+ENDBRANCH  14  15
+ENDBRANCH   4  14
+TORSDOF 6
+ENDMDL
